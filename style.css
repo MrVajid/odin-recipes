@@ -1,0 +1,28 @@
+body {
+    background-color: antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+}
+.img {
+    height: auto;
+    width: 400;
+}
+div {
+    text-align: center;
+}
+h1 {
+    color: darkmagenta;
+    background-color:azure;
+    text-align: center;
+}
+h2 {
+    color:brown;
+}
+h3 {
+    color: chocolate;
+}
+button {
+    color: black;
+    background-color:lightcyan;
+    font-weight: 500;
+    text-align: center;
+}
