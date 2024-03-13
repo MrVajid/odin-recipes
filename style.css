@@ -1,31 +1,102 @@
-body {
-    background-color: antiquewhite;
+html, body {
+    background-color: rgba(36, 26, 25, 1);
     font-family:'Times New Roman', Times, serif;
+    height:100%;
+}
+.outer-cont{
+    width: 800px;
+    max-width:calc(100% - 10px);
+    margin: 0px auto;
+    background-color:rgba(57, 46, 46, 1);
+    border-left: 2px solid peru;
+    border-right: 2px solid peru;
+    text-align:center;
+    color: rgb(193,190,184);
 }
 .img {
     height: auto;
-    width: 350;
+    width: 400px;
+    max-width:90%;
+    border-radius: 10px;
+    border: 1px solid peru;
 }
-div {
+.img-centre {
     text-align: center;
 }
 h1 {
-    color: darkmagenta;
-    background-color:azure;
-    text-align: center;
+    color:rgb(28, 1, 1);
+    background-color:rgb(244, 214, 214);
+    padding: 8px 15%;
+    border-radius: 10px;
+    margin: 16px 16px;
+    outline: 2px solid red;
+    display:inline-block;
 }
 h2 {
     color:brown;
+    background-color: rgba(181, 188, 193, 1);
+    width: fit-content;
+    padding: 8px 15%;
+    border-radius: 10px;
+    margin: 16px auto;
+}
+ul, ol {
+    background-color:rgb(114, 92, 92);
+    padding: 6px;
+    margin: 16px auto;
+    border-radius: 10px;
+    width:800px;
+    max-width:85%;
+}
+.recipe-list li {
+    background-color: rgba(9, 47, 80, 0.85);
+    margin: 16px;
+    border-radius: 20px;
+    padding: 6px;
+}
+.recipe-list li:hover {
+    background-color: rgba(106, 136, 161, 0.85);
+}
+ .recipe-link a  {
+    color: rgba(240, 248, 255, 0.85);
+    font-weight: bold;
+    padding: 6px 40px; 
+}
+button {
+    background-color:rgba(28, 86, 137, 0.85);
+    border-radius:50px; 
+    height:30px; 
+    width: 80px;
+    margin-bottom: 8px;
+}
+button:hover {
+    background-color:rgba(97, 145, 186, 0.85);
+}
+button a{
+    color: rgba(240, 248, 255, 0.85);
+    font-weight: bold;
+}
+/* Will modify after learning how button works */
+.last {
+    padding-bottom: 4px;
+    text-align: center;
+}
+.steps li{
+    text-align: left;
+    margin-left:16px;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+h3, p {
+    text-align: left;
+    margin-left: 30px;
+    width: 800px;
+    max-width: 85%;
+    margin: 6px auto;
 }
 h3 {
     color: chocolate;
 }
-button {
-    color: black;
-    background-color:lightcyan;
-    font-weight: 500;
-    text-align: center;
-    border-radius:10px; 
-    min-height:30px; 
-    min-width: 80px;
+p {
+    font-size: 17px;
 }
